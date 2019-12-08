@@ -1,0 +1,108 @@
+@media (max-width: $md) {
+  .mainContent,
+  .mainContent4 {
+    // border: 1px solid;
+    .content {
+      .contentHeading {
+        font-size: 6vw !important;
+      }
+      .contentHeading2 {
+        font-size: 5vw !important;
+      }
+      .contentPara {
+        // border: 1px solid red;
+        font-size: 2vw !important;
+        width: 90% !important;
+      }
+      .content2Head {
+        font-size: 3vw !important;
+      }
+      .seoUl {
+        margin-left: 7% !important;
+        li {
+          font-size: 2.2vw !important;
+        }
+      }
+      .orangeDiv {
+        width: 90% !important;
+        .orangeHeading {
+          font-size: 3.4vw !important;
+        }
+        .orangeHeading2 {
+          font-size: 2.7vw !important;
+        }
+      }
+      .toogle {
+        .button_toogle {
+          width: 94% !important;
+        }
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-4,
+        .item-5,
+        .item-6,
+        .item-7,
+        .item-8,
+        .item-9 {
+          width: 94% !important;
+          font-size: 2vw !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .mainContent,
+  .mainContent4 {
+    .content {
+      .contentPara,
+      .content2Head {
+        font-size: 4vw !important;
+      }
+      .contentHeading2 {
+        font-size: 5.5vw !important;
+      }
+      .seoUl {
+        margin-left: 9% !important;
+        li {
+          font-size: 4vw !important;
+        }
+      }
+      .content2Head3 {
+        font-size: 5vw !important;
+      }
+      .orangeDiv {
+        .orangeHeading {
+          margin-left: 1% !important;
+          font-size: 4.5vw !important;
+          text-align: center;
+        }
+        .orangeHeading2 {
+          margin-left: 5% !important;
+        }
+        .orangePara {
+          width: 92% !important ;
+        }
+      }
+      .toogle {
+        .button_toogle {
+          font-size: 4vw;
+        }
+        .item-1,
+        .item-2,
+        .item-3,
+        .item-4,
+        .item-5,
+        .item-6,
+        .item-7,
+        .item-8,
+        .item-9 {
+          font-size: 3.5vw !important;
+          padding-left: 7% !important;
+        }
+      }
+    }
+  }
+}

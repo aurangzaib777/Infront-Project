@@ -1,0 +1,55 @@
+@media (max-width: $md) {
+  .mainContent4 {
+    .content {
+      .contentHeading2 {
+        font-size: 5vw !important;
+      }
+      .seoUl {
+        margin-left: 7% !important;
+        li {
+          font-size: 2.2vw !important;
+        }
+      }
+      .video {
+        .videoDiv {
+          width: 90% !important;
+        }
+      }
+      .orangeDiv {
+        .orangeHeading2 {
+          font-size: 2.7vw !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .mainContent4 {
+    .content {
+      .contentHeading2 {
+        font-size: 5.5vw !important;
+      }
+      .seoUl {
+        margin-left: 9% !important;
+        li {
+          font-size: 4vw !important;
+        }
+      }
+      .video {
+        .videoDiv {
+          height: 250px !important;
+        }
+      }
+      .content2Head3 {
+        font-size: 5vw !important;
+      }
+      .orangeDiv {
+        .orangeHeading2 {
+          font-size: 4.8vw !important;
+          margin-left: 0% !important;
+        }
+      }
+    }
+  }
+}

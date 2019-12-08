@@ -1,0 +1,16 @@
+.mainContent {
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  grid-template-rows: 1fr;
+  //   display: inline;
+}
+
+// Content
+@import "./content";
+
+// Aside Content
+@import "./asideContent";
+
+// Responsive
+@import "../Responsive/Main_Content/mainResponsive";

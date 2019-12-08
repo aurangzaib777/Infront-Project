@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.displayNone {
+  display: none;
+}
+.displayBlock {
+  display: block;
+}
+
+// Variables
+@import "./Components/variables";
+
+// Home Page Imports
+
+// Header
+@import "./Components/Home_Page/Header/header";
+// NavBar
+@import "./Components/Home_Page/NavBar/nav";
+// Introduction
+@import "./Components/Home_Page/Introduction/introduction";
+// About Company
+@import "./Components/Home_Page/About/about";
+// Services
+@import "./Components/Home_Page/Services/services";
+// Featured Work
+@import "./Components/Home_Page/FeaturedWork/featuredWork";
+// Blog
+@import "./Components/Home_Page/Blog/blog";
+// Clients
+@import "./Components/Home_Page/Clients/clients";
+// Footer
+@import "./Components/Home_Page/Footer/footer";
+// Copyright
+@import "./Components/Home_Page/Copyright/copyright";
+
+// Digital Marketing Page
+
+// Pages
+@import "./Components/Digital_Marketing_Page/Pages_Name/pages";
+
+// Main Content
+@import "./Components/Digital_Marketing_Page/Main_Content/main";
+
+// SEO
+
+// Main Content
+@import "./Components/SEO/Main_Content/content";
+
+// SEM
+
+// Main
+@import "./Components/SEM/Main_Content/main";
+
+// Aside
+@import "./Components/SEM/Main_Content/aside";
+
+// Web
+
+// Content
+@import "./Components/Web/Main_Content/content";
+
+// Web Design
+
+// Content
+@import "./Components/Web_Design/Main_Content/content";
+
+// Aside Component
+@import "./Components/Web_Design/Main_Content/Components/Aside/centerText";
+
+// Development
+
+// Content
+@import "./Components/Development/Main_Content/content";
+
+// Ecommerce
+
+// Content
+@import "./Components/Ecommerce/Main_Content/content";
+
+// Cloud Services
+
+// Content Responsive
+@import "./Components/Cloud_Services/Responsive/Main_Content_Responsive/contentResponsive";
+
+// About
+
+// Content
+@import "./Components/About/content";
+
+// The Team
+
+// main
+@import "./Components/The_Team/Main_Content/main";
+
+// Portfolio
+
+// Main
+@import "./Components/Portfolio/Main_Content/main";
+
+// Blog
+
+// Main
+@import "./Components/Blog/Main_Content/main";
+
+// Aside
+@import "./Components/Blog/Main_Content/aside";
+
+// Domain Registration
+
+// Main
+@import "./Components/Domain_Registration/Main_Content/main";
+
+// Aside
+@import "./Components/Domain_Registration/Main_Content/aside";
+
+// Email Services
+
+// Main
+@import "./Components/Email_Services/Main_Content/main";

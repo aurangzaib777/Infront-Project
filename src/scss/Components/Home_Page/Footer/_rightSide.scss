@@ -1,0 +1,37 @@
+.right-side {
+  width: 50vw;
+  border: 1px solid $lightBlack;
+  .pages-link {
+    width: 100%;
+    display: flex;
+    // border: 1px solid blue;
+    .page-link {
+      background-color: $lightBlack;
+      width: 34%;
+      border: 1px solid $lightBlack;
+    }
+    .page-font {
+      font-size: 1.3vw;
+      margin-top: 10px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      display: block;
+    }
+  }
+  .bottom-section-1 {
+    width: 100%;
+    // border: 1px solid red;
+    padding-top: 15px;
+    padding-left: 10px;
+    .search-btn {
+      margin-top: -5px;
+    }
+  }
+}
+
+//Right Side Top Section Responsive
+@import "../Responsive/Footer/rightSideTopSectionResponsive";
+
+// bottom Responsive
+@import "../Responsive/Footer/Components/Right_Side_Responsive/bootomResponsive";

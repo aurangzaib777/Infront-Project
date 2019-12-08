@@ -1,0 +1,230 @@
+@media (min-width: 1800px) {
+  .pagesName {
+    width: 30vw !important;
+    // Digital Marketing
+    .name,
+    // Seo
+    .name2,
+    // Sem
+    .name3,
+    // Social Media
+    .name4,
+    // web
+    .name5 {
+      margin-top: 15px;
+      font-size: 1.4vw !important;
+      .seoLink1,
+      .socialLink1,
+      .webLink1 {
+        height: 40px !important;
+      }
+    }
+  }
+}
+@media (max-width: $lg) {
+  .pagesName {
+    // seo
+    .name2 {
+      margin-left: -5vw !important;
+      font-size: 1.4vw !important;
+    }
+    // Sem
+    .name3 {
+      margin-left: 0vw !important;
+      font-size: 1.4vw !important;
+    }
+    // Social Media
+    .name4 {
+      margin-left: 12vw !important;
+      font-size: 1.4vw !important;
+    }
+    // web
+    .name5 {
+      margin-left: -5vw !important;
+      font-size: 1.4vw !important;
+    }
+  }
+}
+@media (max-width: $md) {
+  .pagesName {
+    width: 25vw !important;
+    // Digital Marketing
+    .name {
+      font-size: 1.4vw !important;
+      margin-left: 19vw !important;
+      .link1 {
+        height: 20px !important;
+      }
+    }
+    // Sem
+    .name3 {
+      margin-top: -8px;
+      font-size: 1.6vw !important;
+      margin-left: -2vw !important;
+      .seolink1 {
+        height: 10px;
+      }
+    }
+    // Seo
+    .name2 {
+      font-size: 1.4vw !important;
+      margin-top: -8px;
+      margin-left: -9vw !important;
+    }
+    // Social Media
+    .name4 {
+      font-size: 1.4vw !important;
+      margin-top: -8px;
+      margin-left: 10vw !important;
+    }
+
+    // web
+    .name5 {
+      font-size: 1.4vw !important;
+      margin-top: -8px;
+      margin-left: -9vw !important;
+    }
+  }
+}
+
+@media (max-width: $sm) {
+  .pagesName {
+    width: 50vw !important;
+    // digital Marketing
+    .name {
+      margin-top: -7px;
+      width: 90vw !important;
+      margin-left: 49vw !important;
+      font-size: 3vw !important;
+      // Digital Marketing
+      .link1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+    // Seo
+    .name2 {
+      margin-left: -15vw !important;
+      font-size: 3vw !important;
+      // Seo
+      .seoLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+    // Sem
+    .name3 {
+      margin-left: -5vw !important;
+      font-size: 3vw !important;
+      // Seo
+      .seoLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+    // Social Media
+    .name4 {
+      margin-left: 25vw !important;
+      font-size: 3vw !important;
+      // Seo
+      .socialLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+    // web
+    .name5 {
+      margin-left: -15vw !important;
+      font-size: 3vw !important;
+      // Seo
+      .webLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+  }
+}
+
+@media (max-width: $xsm) {
+  .pagesName {
+    width: 65vw !important;
+    // Digital Marketing
+    .name {
+      margin-top: -5px !important;
+      width: 90px !important;
+      // height: auto !important;
+      margin-left: 40vw !important;
+      flex-wrap: wrap;
+      // border: 1px solid;
+      font-size: 4vw !important;
+      .link1 {
+        margin-top: 4px;
+        border-right: none !important;
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+    // Seo
+    .name2 {
+      flex-wrap: nowrap !important;
+      font-size: 3.5vw !important;
+      margin-left: -25vw !important;
+      .seoLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+    // Sem
+    .name3 {
+      flex-wrap: nowrap !important;
+      font-size: 3.5vw !important;
+      margin-left: -15vw !important;
+      .seoLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+    // Social Media
+    .name4 {
+      flex-wrap: nowrap !important;
+      font-size: 3.5vw !important;
+      margin-left: 15vw !important;
+      .socialLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+    // web
+    .name5 {
+      flex-wrap: nowrap !important;
+      font-size: 3.5vw !important;
+      margin-left: -25vw !important;
+      .webLink1 {
+        padding-left: 3vw !important;
+        padding-right: 3vw !important;
+      }
+    }
+  }
+}
+
+@media (max-width: $xxsm) {
+  .pagesName {
+    // Digital Marketing
+    .name {
+      width: 80px !important;
+    }
+    // Seo
+    .name2,
+    // Sem
+    .name3,
+    // Social Media
+    .name4,
+    // web
+    .name5 {
+      font-size: 4vw !important;
+    }
+    .name4 {
+      margin-left: 25vw !important;
+    }
+  }
+}

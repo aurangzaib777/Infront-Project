@@ -1,0 +1,25 @@
+@media (min-width: 1800px) {
+  // Digital Marketing
+  .pages-div,
+  // Seo
+  .pages-div2 {
+    height: 100px !important;
+  }
+}
+@media (max-width: $md) {
+  .pages-div2 {
+    height: 40px;
+  }
+}
+
+@media (max-width: $sm) {
+  .pages-div {
+    height: 45px !important;
+  }
+}
+
+@media (max-width: $xsm) {
+  .pages-div {
+    height: 155px !important;
+  }
+}
