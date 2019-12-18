@@ -11,7 +11,7 @@ const Nav = () => {
           <img
             src="https://www.infront.com/Sitefinity/WebsiteTemplates/2018/App_Themes/2018/Images/DesignElements/infront-logo.png"
             alt=""
-            width="80%"
+            width="60%"
           />
         </Link>
         <button
