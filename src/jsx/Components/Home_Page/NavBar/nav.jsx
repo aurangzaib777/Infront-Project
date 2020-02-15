@@ -9,7 +9,7 @@ const Nav = () => {
       >
         <Link to="/" className="navbar-brand ml-4 resLogo">
           <img
-            src="https://www.infront.com/Sitefinity/WebsiteTemplates/2018/App_Themes/2018/Images/DesignElements/infront-logo.png"
+            src={require("../../../../assets/img/infront-logo.png")}
             alt=""
             width="60%"
           />
