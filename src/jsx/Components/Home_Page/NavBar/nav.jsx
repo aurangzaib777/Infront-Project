@@ -9,7 +9,7 @@ const Nav = () => {
       >
         <Link to="/" className="navbar-brand ml-4 resLogo">
           <img
-            src={require("../../../../assets/img/infront-logo.png")}
+            src="https://www.infront.com/wp-content/uploads/2019/09/infront-logo.png.webp"
             alt=""
             width="60%"
           />
